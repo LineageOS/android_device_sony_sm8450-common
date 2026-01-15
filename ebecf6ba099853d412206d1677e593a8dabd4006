@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "45668a7a_e955fec5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32674
+      },
+      "writtenOn": "2026-01-15T15:10:08Z",
+      "side": 1,
+      "message": "a97407c67242b9bea15340d6003e9eca9e6bb664 is here so ssr blobs can be dropped.",
+      "revId": "ebecf6ba099853d412206d1677e593a8dabd4006",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
