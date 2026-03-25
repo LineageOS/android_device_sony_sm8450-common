@@ -8,3 +8,7 @@ persist.vendor.display.colorgamut.mode=1
 persist.vendor.display.sspp_color_mode=1
 persist.vendor.display.opec_mode=0
 vendor.display.hmd_mode=0
+
+# SKU
+ro.product.property_source_order=odm,product,vendor,system_ext,system
+import /odm/etc/customization/${ro.boot.hardware.sku}/config.prop

@@ -46,6 +46,13 @@ lib_fixups: lib_fixups_user_type = {
 }
 
 blob_fixups: blob_fixups_user_type = {
+    ('odm/etc/customization/XQ-CQ44/config.prop', 'odm/etc/customization/XQ-CQ54/config.prop',
+     'odm/etc/customization/XQ-CQ54_EEA/config.prop', 'odm/etc/customization/XQ-CQ62/config.prop',
+     'odm/etc/customization/XQ-CQ72/config.prop', 'odm/etc/customization/XQ-CQ72_RU/config.prop',
+     'odm/etc/customization/XQ-CT44/config.prop', 'odm/etc/customization/XQ-CT54/config.prop',
+     'odm/etc/customization/XQ-CT54_EEA/config.prop', 'odm/etc/customization/XQ-CT62/config.prop',
+     'odm/etc/customization/XQ-CT72/config.prop', 'odm/etc/customization/XQ-CT72_RU/config.prop'): blob_fixup()
+        .regex_replace('vendor', 'odm'),
     'system_ext/lib64/libwfdnative.so': blob_fixup()
         .add_needed('libinput_shim.so'),
     'system_ext/lib64/vendor.qti.hardware.qccsyshal@1.2-halimpl.so': blob_fixup()
