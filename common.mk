@@ -221,7 +221,7 @@ PRODUCT_ENABLE_UFFD_GC := true
 
 # Lights
 PRODUCT_PACKAGES += \
-    android.hardware.light-service.lineage
+    android.hardware.lights-service.qti
 
 # Lineage Health
 PRODUCT_PACKAGES += \
