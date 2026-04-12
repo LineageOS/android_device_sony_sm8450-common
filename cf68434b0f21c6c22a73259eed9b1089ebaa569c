@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3854a7b9_6cae1d2f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32674
+      },
+      "writtenOn": "2026-04-12T11:26:58Z",
+      "side": 1,
+      "message": "Break deep sleep.",
+      "revId": "cf68434b0f21c6c22a73259eed9b1089ebaa569c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
