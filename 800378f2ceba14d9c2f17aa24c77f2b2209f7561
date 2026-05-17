@@ -1,5 +1,23 @@
 {
-  "comments": [],
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b137492c_ec68fc5b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 37057
+      },
+      "writtenOn": "2026-05-17T04:38:05Z",
+      "side": 1,
+      "message": "Samsung s10",
+      "revId": "800378f2ceba14d9c2f17aa24c77f2b2209f7561",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ],
   "submitRequirementResults": [
     {
       "submitRequirement": {
