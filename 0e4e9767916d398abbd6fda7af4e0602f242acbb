@@ -16,6 +16,24 @@
       "message": "libion is used by a lot of stuff.",
       "revId": "0e4e9767916d398abbd6fda7af4e0602f242acbb",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6b4b2e06_f564a97c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 36705
+      },
+      "writtenOn": "2026-08-15T17:23:12Z",
+      "side": 1,
+      "message": "Are you sure about this? Y\u0027all don\u0027t even have ION enabled in the kernel. Just because blobs link with libion, it doesn\u0027t mean that you need it. I checked s5e8825 and we have some blobs which link with libion too, yet I didn\u0027t need to enable this on 24.0.",
+      "parentUuid": "c886b8aa_3b0fbe66",
+      "revId": "0e4e9767916d398abbd6fda7af4e0602f242acbb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
